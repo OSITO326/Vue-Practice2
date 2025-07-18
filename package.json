@@ -14,10 +14,13 @@
     "db": "json-server --watch DB/db.json --port 3000"
   },
   "dependencies": {
+    "@hugeicons/core-free-icons": "^1.0.14",
+    "@hugeicons/vue": "^1.0.3",
     "@tailwindcss/vite": "^4.1.11",
     "json-server": "1.0.0-beta.3",
     "tailwindcss": "^4.1.11",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
