@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import './assets/main.css'
 import SideBar from './components/core/SideBar.vue';
 </script>
 

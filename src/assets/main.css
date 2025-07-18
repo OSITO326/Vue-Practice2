@@ -79,6 +79,10 @@
     @apply bg-gradient-to-t from-primary-400 to-primary-500 text-2xl p-2 rounded-xl text-white mx-auto mb-8;
   }
 
+  .ui__header {
+    @apply pt-8;
+  }
+
   /* ORDERS */
   .order__card {
     @apply cursor-pointer shadow-md bg-white rounded-xl p-5 md:flex items-center justify-between hover:shadow-md hover:outline hover:outline-[1px] outline-primary-500 transition-all hover:scale-[1.005];
