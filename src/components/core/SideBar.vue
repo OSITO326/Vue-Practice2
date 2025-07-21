@@ -10,7 +10,9 @@ const route = useRoute();
 <template>
   <nav class="sidemenu">
     <div class="sidemenu--logo">
-      <HugeiconsIcon :icon="Store01Icon" :size="28" />
+       <RouterLink to="/" class="sidemenu--logo-link">
+        <HugeiconsIcon :icon="Store01Icon" :size="28" />
+      </RouterLink>
     </div>
     <ul class="sidemenu--items">
       <li
