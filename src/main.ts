@@ -22,6 +22,7 @@ import Select from 'primevue/select';
 import Dropdown from 'primevue/dropdown';
 import InputNumber from 'primevue/inputnumber';
 import Checkbox from 'primevue/checkbox';
+import Card from 'primevue/card';
 
 const app = createApp(App)
 app.use(PrimeVue, {
@@ -48,5 +49,6 @@ app.component('Select', Select)
 app.component('Dropdown', Dropdown)
 app.component('InputNumber', InputNumber)
 app.component('Checkbox', Checkbox)
+app.component('Card', Card)
 app.use(router)
 app.mount('#app')
