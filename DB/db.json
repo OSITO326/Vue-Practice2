@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Nissan Skyline GT-R R32",
       "description": "Miniatura a escala 1:64 del icónico auto japonés.",
       "price": 10.99,
@@ -12,10 +12,10 @@
       "brandId": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Batmobile 1989 X Kith",
       "description": "Auto clásico de Batman, edición limitada.",
-      "price": 14.50,
+      "price": 14.5,
       "image": "https://images.stockx.com/images/Kith-x-Hot-Wheels-Batman-1989-Batmobile-Black.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1731938452",
       "stock": 10,
       "available": true,
@@ -23,7 +23,7 @@
       "brandId": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Iron Man Mark L",
       "description": "Figura coleccionable escala 1:6 de Hot Toys.",
       "price": 299.99,
@@ -34,10 +34,10 @@
       "brandId": 2
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Captain America Endgame",
       "description": "Figura detallada con escudo y martillo.",
-      "price": 310.00,
+      "price": 310,
       "image": "https://ss639.liverpool.com.mx/xl/1137880748_5p.jpg",
       "stock": 4,
       "available": true,
@@ -45,10 +45,10 @@
       "brandId": 2
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "RC Monster Truck",
       "description": "Camión a control remoto todo terreno.",
-      "price": 49.90,
+      "price": 49.9,
       "image": "https://shopping.mattel.com/cdn/shop/files/n2u6cdmujyzkokjuytm4_ec3e9b41-33b2-410a-81a2-a1ee2a7e9dbb_grande.jpg?v=1738010990",
       "stock": 12,
       "available": true,
@@ -56,10 +56,10 @@
       "brandId": 3
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Dinosaurio T-Rex",
       "description": "Figura grande de T-Rex con sonido.",
-      "price": 25.50,
+      "price": 25.5,
       "image": "https://creations.mattel.com/cdn/shop/files/okj5ocjcz89fqgg9trir.jpg?v=1750116689",
       "stock": 8,
       "available": true,
@@ -69,33 +69,42 @@
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Diecast",
-      "description": "Autos miniatura de metal a escala."
+      "description": "Autos miniatura de metal a escala 1:64."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Collectible Toy",
       "description": "Figuras de colección de alta calidad."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Action Toys",
       "description": "Juguetes interactivos y con movimiento."
+    },
+    {
+      "id": "45f5",
+      "name": "Greenlight",
+      "description": "qwerty"
     }
   ],
   "brands": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Hot Wheels"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Hot Toys"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Mattel"
+    },
+    {
+      "id": "eb66",
+      "name": "Barbies"
     }
   ]
 }
